@@ -33,11 +33,12 @@ const Navbar = () => {
         <NavLink to="/">
           <h1>Logo</h1>
         </NavLink>
-        <Bars />
+
 
         {/* navmenu is a flex div container for all middle links*/}
-
+        <Bars />
         <NavMenu>
+
           <NavLink to='/about' activeStyle>
             About
           </NavLink>
