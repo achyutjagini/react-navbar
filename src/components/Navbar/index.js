@@ -36,7 +36,9 @@ const Navbar = () => {
 
 
         {/* navmenu is a flex div container for all middle links*/}
+
         <Bars />
+
         <NavMenu>
 
           <NavLink to='/about' activeStyle>

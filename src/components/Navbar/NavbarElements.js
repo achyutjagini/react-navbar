@@ -5,7 +5,7 @@ import { FaBars } from 'react-icons/fa';
 
 /*
 
-The padding is set to 0.5rem on the top and bottom,
+The padding is set to 1rem on the top and bottom,
 
 and calc() 
 is used to set the left and right padding to be a calculation
@@ -38,7 +38,7 @@ sets the height to 100%, and sets the cursor to a pointer.
 
 //change the padding and experiment
 export const NavLink = styled(Link)`
-  color: #fff;
+  color: #fff; /*white text color */
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -81,11 +81,11 @@ color: #fff;
 {
   display:flex;
   align-items:center;
-  justify-content:center
+  justify-content:center;
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(-500%,75 %);
+  transform: translate(-500%,-100 %);
   font-size: 3rem;
   cursor: pointer;
 }
